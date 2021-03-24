@@ -15,46 +15,57 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Open browser'
 WebUI.openBrowser(GlobalVariable.URL)
 
+'Maximize window'
 WebUI.maximizeWindow()
 
+'Enter username'
 WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Email'), GlobalVariable.Admin)
 
+'Enter password'
 WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Password'), GlobalVariable.admin_password)
 
+'Click on login button'
 WebUI.click(findTestObject('Common_Objects/Login_Screen/button_Login'))
 
-WebUI.click(findTestObject('Admin/Branch_Management/Search_Students/Search_Student_menu'))
+'Click on New Registrations menu'
+WebUI.click(findTestObject('Admin/Branch_Management/New_Registrations/New_Registrations_menu'))
 
-WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Search_Students/select_Enrollment_Status'), 'Active', 
-    false)
+'Click on Conversations button'
+WebUI.click(findTestObject('Admin/Branch_Management/New_Registrations/button_Coversation'))
 
-WebUI.setText(findTestObject('Admin/Branch_Management/Search_Students/input_studentFirstname'), 'test')
+'Input texts in text area'
+WebUI.setText(findTestObject('Common_Objects/Common/textarea_conversation'), 'Rejecting this student')
 
-WebUI.click(findTestObject('Common_Objects/Common/Search_Button'))
+'Submit conversation comments'
+WebUI.click(findTestObject('Common_Objects/Common/button_Submit'))
 
-WebUI.click(findTestObject('Common_Objects/Common/View_Details_First_Record'))
+'Verify comment texts are saved succesfully'
+WebUI.verifyElementText(findTestObject('Admin/Branch_Management/New_Registrations/message_conversation_line1'), 'Rejecting this student - Keith')
 
-WebUI.verifyElementVisible(findTestObject('Admin/Branch_Management/Student_Details_popup/Student_Details_header'))
+'Close the modal by clicking on x'
+WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Branch_Management/Student_Details_popup/Parent_Details_header'))
+'View details of first record'
+WebUI.click(findTestObject('Common_Objects/Common/View_Details_Icon_firstRecord'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Branch_Management/Student_Details_popup/Enrollment_Timeslot_header'))
+WebUI.scrollToElement(findTestObject('Common_Objects/Common/Delete_button'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin/Branch_Management/Student_Details_popup/Update_Branch_header'), 0)
+'Click on delete button'
+WebUI.click(findTestObject('Common_Objects/Common/Delete_button'))
 
-WebUI.click(findTestObject('Admin/Branch_Management/Student_Details_popup/Update_Branch_header'))
+'Verify delete success message'
+WebUI.verifyElementText(findTestObject('Common_Objects/Common/Delete_Success_Message'), 'Enrollment has been deleted successfully.')
 
-WebUI.click(findTestObject('Admin/Branch_Management/Student_Details_popup/Save_Branch_Button'))
+WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Common_Objects/Common/Save_Success_Message'))
+'Close the details modal'
+WebUI.click(findTestObject('Admin/Branch_Management/New_Registrations/NR_Modal_Close'))
 
-WebUI.click(findTestObject('Common_Objects/Common/Close_button'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Common_Objects/Common/Reset_button'))
-
-WebUI.verifyElementText(findTestObject('Admin/Branch_Management/Search_Students/input_studentFirstname'), '')
-
+'Close browser'
 WebUI.closeBrowser()
 

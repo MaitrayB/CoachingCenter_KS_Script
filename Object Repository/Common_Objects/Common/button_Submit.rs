@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>View_Details_First_Record</name>
+   <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>10ca8495-87e4-4426-8763-4432e94c97dc</elementGuidId>
+   <elementGuidId>e90d3744-652a-4873-beb7-4ec24ba1ccbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[.='View Details'])[1]</value>
+         <value>//button[.='Submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

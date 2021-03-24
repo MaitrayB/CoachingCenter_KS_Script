@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_Reject_Student_Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80cfef89-3558-495d-a16f-2fc7b4d1f02a</testCaseGuid>
+</TestCaseEntity>
