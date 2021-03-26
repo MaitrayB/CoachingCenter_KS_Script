@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case is about -
+Admin logs in and go to student registration approval. for first record it will add conversation and verifies that conversation message was added successfully.
+Then it open student details pop up and rejects the student. it verifies success message.</description>
    <name>TC_002_Reject_Student_Registration</name>
    <tag></tag>
    <comment></comment>

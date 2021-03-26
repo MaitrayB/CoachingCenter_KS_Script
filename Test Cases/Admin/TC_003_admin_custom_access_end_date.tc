@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_admin_custom_access_end_date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db75f5a3-8cb2-4acd-93dd-144b8ed68970</testCaseGuid>
+</TestCaseEntity>

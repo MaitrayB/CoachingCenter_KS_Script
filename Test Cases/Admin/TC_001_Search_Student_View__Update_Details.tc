@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case searches student by name and status = active. then it views the details pop up and verifies all titles presence.
+Then it updates branch, saves and verifies success message.</description>
    <name>TC_001_Search_Student_View__Update_Details</name>
    <tag></tag>
    <comment></comment>
