@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Student does following for all 5 type of SAT math quiz;
+Start a test.
+Go to next set of questions.
+Click x and leave the quiz.
+Verify Resume link is present.
+Click on result link.
+Go till the last page of quiz and view result.
+Verify Success message.
+Close.
+Verify Resume link is not present.
+Move on to next quiz topic.</description>
+   <name>TC_001_Student_Start_Resume_Tests</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b706b74-8dcd-4327-85b9-26fa47de861a</testCaseGuid>
+</TestCaseEntity>

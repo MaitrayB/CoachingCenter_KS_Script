@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Manage_Class</name>
+   <name>Trigonomerty_Quiz_Resume_quiz</name>
    <tag></tag>
-   <elementGuidId>b91a4eb6-c2f7-408a-869c-6654d661bd53</elementGuidId>
+   <elementGuidId>7a1e6cd6-6e00-4730-8c94-26465404a0ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'Manage Class')]</value>
+         <value>//tr[contains(.,&quot;Trigonometry&quot;)]//td[contains(.,&quot;Resume quiz&quot;)]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

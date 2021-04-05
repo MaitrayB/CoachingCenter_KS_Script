@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SAT_Program_Panel</name>
+   <name>Save_date</name>
    <tag></tag>
-   <elementGuidId>b60d5937-635d-4f02-84d9-c4ce9404cdb9</elementGuidId>
+   <elementGuidId>141a90ff-0322-4bb2-b653-765bf889b263</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[contains(@data-ng-click,'saveCustomDate')])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(.,'SAT Group Class')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

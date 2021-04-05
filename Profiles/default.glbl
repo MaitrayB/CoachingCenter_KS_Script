@@ -19,4 +19,14 @@
       <initValue>'melbourne'</initValue>
       <name>admin_password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'devang@yopmail.com'</initValue>
+      <name>student_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'P@ssw0rd'</initValue>
+      <name>student_password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

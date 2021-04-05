@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Group_Class_Management</name>
+   <name>Probability_Quiz_Start_New_Quiz</name>
    <tag></tag>
-   <elementGuidId>8b6d8859-b14f-440a-9842-c0f47f0fb61a</elementGuidId>
+   <elementGuidId>f259f650-7387-49a8-aae3-7bc78062b14b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'Group Class Management')]</value>
+         <value>//tr[contains(.,&quot;Probability&quot;)]//td[contains(.,&quot;Start a new quiz&quot;)]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

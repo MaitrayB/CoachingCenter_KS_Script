@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SAT_Program_Panel</name>
+   <name>Batch_Details_Viewer</name>
    <tag></tag>
-   <elementGuidId>b60d5937-635d-4f02-84d9-c4ce9404cdb9</elementGuidId>
+   <elementGuidId>17ad479e-7c5c-4ac6-aab6-47430e2684c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[contains(.,'Batch Details Viewer')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(.,'SAT Group Class')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

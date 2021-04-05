@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Save_date</name>
+   <name>View_Results</name>
    <tag></tag>
-   <elementGuidId>141a90ff-0322-4bb2-b653-765bf889b263</elementGuidId>
+   <elementGuidId>c700490d-6401-4645-87e8-e6cc5382f786</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@data-ng-click,'saveCustomDate')])[1]</value>
+         <value>//a[.='View Results']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

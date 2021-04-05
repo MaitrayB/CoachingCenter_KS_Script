@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SAT_Program_Panel</name>
+   <name>Quiz_Next_button</name>
    <tag></tag>
-   <elementGuidId>b60d5937-635d-4f02-84d9-c4ce9404cdb9</elementGuidId>
+   <elementGuidId>07efee7e-fff3-4f1e-8e3c-2004a9e6514a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'SAT Group Class')]</value>
+         <value>//a[contains(.,'NEXT')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

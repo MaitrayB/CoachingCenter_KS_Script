@@ -37,16 +37,16 @@ WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Password'), Glob
 WebUI.click(findTestObject('Common_Objects/Login_Screen/button_Login'))
 
 'Click on Group Class Management Menu'
-WebUI.click(findTestObject('Group_Class_Management/Group_Class_Management'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Group_Class_Management'))
 
 'Click on SAT menu'
-WebUI.click(findTestObject('Group_Class_Management/SAT'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/SAT'))
 
 'Click on Manage Class menu'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class'))
 
 'Click on Batch Details Viewer'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class_Screen/Batch_Details_Viewer'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Batch_Details_Viewer'))
 
 WebUI.delay(3)
 
@@ -57,15 +57,15 @@ WebUI.selectOptionByLabel(findTestObject('Common_Objects/Common/Program_Dropdown
 WebUI.selectOptionByIndex(findTestObject('Common_Objects/Common/Batch_Dropdown'), 1)
 
 'Change date to yesterday'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class_Screen/Edit_Date_First_Record'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Edit_Date_First_Record'))
 
-WebUI.setText(findTestObject('Group_Class_Management/Manage_Class_Screen/Input_Date'), date1.format(java.time.format.DateTimeFormatter.ofPattern(
+WebUI.setText(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Input_Date'), date1.format(java.time.format.DateTimeFormatter.ofPattern(
             'dd-MM-yyyy')).toString())
 
 WebUI.delay(2)
 
 'Save date'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class_Screen/Save_date'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Save_date'))
 
 'View details pop up for first record'
 WebUI.click(findTestObject('Common_Objects/Common/View_Details_Icon_firstRecord'))
@@ -88,16 +88,16 @@ WebUI.click(findTestObject('Common_Objects/Common/Previous_Admin_Menu'))
 date1 = LocalDate.now().plusDays(1)
 
 'Click on Group Class Management Menu'
-WebUI.click(findTestObject('Group_Class_Management/Group_Class_Management'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Group_Class_Management'))
 
 'Click on SAT menu'
-WebUI.click(findTestObject('Group_Class_Management/SAT'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/SAT'))
 
 'Click on Manage Class menu'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class'))
 
 'Click on Batch Details Viewer'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class_Screen/Batch_Details_Viewer'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Batch_Details_Viewer'))
 
 WebUI.delay(3)
 
@@ -108,15 +108,15 @@ WebUI.selectOptionByLabel(findTestObject('Common_Objects/Common/Program_Dropdown
 WebUI.selectOptionByIndex(findTestObject('Common_Objects/Common/Batch_Dropdown'), 1)
 
 'Change date to Tomorrow'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class_Screen/Edit_Date_First_Record'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Edit_Date_First_Record'))
 
-WebUI.setText(findTestObject('Group_Class_Management/Manage_Class_Screen/Input_Date'), date1.format(java.time.format.DateTimeFormatter.ofPattern(
+WebUI.setText(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Input_Date'), date1.format(java.time.format.DateTimeFormatter.ofPattern(
             'dd-MM-yyyy')).toString())
 
 WebUI.delay(2)
 
 'Save date'
-WebUI.click(findTestObject('Group_Class_Management/Manage_Class_Screen/Save_date'))
+WebUI.click(findTestObject('Admin/Group_Class_Management/Manage_Class_Screen/Save_date'))
 
 WebUI.delay(2)
 

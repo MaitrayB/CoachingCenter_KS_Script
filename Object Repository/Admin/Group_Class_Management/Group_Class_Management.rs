@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SAT_Program_Panel</name>
+   <name>Group_Class_Management</name>
    <tag></tag>
-   <elementGuidId>b60d5937-635d-4f02-84d9-c4ce9404cdb9</elementGuidId>
+   <elementGuidId>8b6d8859-b14f-440a-9842-c0f47f0fb61a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[contains(.,'Group Class Management')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(.,'SAT Group Class')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

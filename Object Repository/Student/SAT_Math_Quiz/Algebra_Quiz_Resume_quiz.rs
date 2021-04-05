@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Batch_Details_Viewer</name>
+   <name>Algebra_Quiz_Resume_quiz</name>
    <tag></tag>
-   <elementGuidId>17ad479e-7c5c-4ac6-aab6-47430e2684c6</elementGuidId>
+   <elementGuidId>1c1fa442-d22c-4ab0-9690-c1a26176a7ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'Batch Details Viewer')]</value>
+         <value>//tr[contains(.,&quot;Algebra Quiz&quot;)]//td[contains(.,&quot;Resume quiz&quot;)]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
