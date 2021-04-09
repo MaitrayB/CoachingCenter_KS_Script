@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'Open browser and URL of site'
+'Open browser'
 WebUI.openBrowser(GlobalVariable.URL)
 
 'Maximize window'
 WebUI.maximizeWindow()
 
-'Enter email address'
+'Enter username'
 WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Email'), GlobalVariable.Admin)
 
 'Enter password'
@@ -30,21 +30,63 @@ WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Password'), Glob
 'Click on login button'
 WebUI.click(findTestObject('Common_Objects/Login_Screen/button_Login'))
 
-'Click on Search Student menu'
-WebUI.click(findTestObject('Menus/Admin_Menu_Search_Student'))
+'Go to Student Management screen'
+WebUI.click(findTestObject('Menus/Admin_Menu_Student_management'))
 
-'Select enrollment status as Active'
-WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Search_Students/select_Enrollment_Status'), 'Active', 
+'Enter student name in search criteria'
+WebUI.setText(findTestObject('Admin/Branch_Management/Student_Management/Student_Name_input'), GlobalVariable.student_name)
+
+'Verify search result'
+WebUI.verifyElementText(findTestObject('Admin/Branch_Management/Student_Management/Filter_Result_First_Record'), GlobalVariable.student_fullname)
+
+WebUI.delay(1)
+
+'Select On Hold status'
+WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Student_Management/Status_select'), 'On-Hold', false)
+
+WebUI.delay(1)
+
+'Verify search result does not show record'
+WebUI.verifyElementNotPresent(findTestObject('Admin/Branch_Management/Student_Management/Filter_Result_First_Record'), 0)
+
+WebUI.delay(1)
+
+'Clear filters'
+WebUI.click(findTestObject('Admin/Branch_Management/Student_Management/Clear_Filter_Label'))
+
+'Verify clear filter resets the list'
+WebUI.verifyElementPresent(findTestObject('Admin/Branch_Management/Student_Management/Filter_Result_First_Record'), 0)
+
+WebUI.delay(1)
+
+'Select Test Prep'
+WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Student_Management/Select_Group_combo'), 'Test Prep', 
     false)
 
-'Enter student first name'
-WebUI.setText(findTestObject('Admin/Branch_Management/Search_Students/input_studentFirstname'), 'test')
+WebUI.delay(2)
 
-'Click on Search button'
-WebUI.click(findTestObject('Common_Objects/Common/Search_Button'))
+'Select SAT Group Class'
+WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Student_Management/Select_Program_combo'), 'SAT Group Class', 
+    false)
+
+'Select Weekend SAT'
+WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Student_Management/Select_Sub_Program'), 'Weekend SAT', 
+    false)
+
+WebUI.delay(1)
+
+'Enter student name in search criteria'
+WebUI.setText(findTestObject('Admin/Branch_Management/Student_Management/Student_Name_input'), GlobalVariable.student_name)
+
+WebUI.delay(1)
+
+'Verify search result'
+WebUI.verifyElementText(findTestObject('Admin/Branch_Management/Student_Management/Filter_Result_First_Record'), GlobalVariable.student_fullname)
+
+WebUI.delay(1)
 
 'Click on View Details of first record'
-WebUI.click(findTestObject('Common_Objects/Common/View_Details_First_Record'))
+WebUI.click(findTestObject('Common_Objects/Common/View_Details_Icon_firstRecord'))
 
 'Verify that Student details header is present'
 WebUI.verifyElementVisible(findTestObject('Admin/Branch_Management/Student_Details_popup/Student_Details_header'))
@@ -70,12 +112,5 @@ WebUI.verifyElementVisible(findTestObject('Common_Objects/Common/Save_Success_Me
 'Click on Close button.'
 WebUI.click(findTestObject('Common_Objects/Common/Close_button'))
 
-'Click on Reset button'
-WebUI.click(findTestObject('Common_Objects/Common/Reset_button'))
-
-'Verify that field is blank after reset'
-WebUI.verifyElementText(findTestObject('Admin/Branch_Management/Search_Students/input_studentFirstname'), '')
-
-'Close browser'
 WebUI.closeBrowser()
 

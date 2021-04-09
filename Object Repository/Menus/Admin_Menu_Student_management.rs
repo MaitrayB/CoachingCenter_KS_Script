@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search_Student_menu</name>
+   <name>Admin_Menu_Student_management</name>
    <tag></tag>
-   <elementGuidId>1036c257-617e-4eb0-988f-b331125c2ee1</elementGuidId>
+   <elementGuidId>a1350fed-ce44-4872-92d8-f550c93c5b6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(.,'Search Student')]</value>
+         <value>//a[contains(.,'Student Management')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

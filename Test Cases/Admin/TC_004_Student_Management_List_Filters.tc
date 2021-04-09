@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_001_Student_Start_Resume_Tests</name>
+   <name>TC_004_Student_Management_List_Filters</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8b706b74-8dcd-4327-85b9-26fa47de861a</testCaseGuid>
+   <testCaseGuid>4362c858-a3b8-4f88-9558-cc41a15ae1c9</testCaseGuid>
 </TestCaseEntity>

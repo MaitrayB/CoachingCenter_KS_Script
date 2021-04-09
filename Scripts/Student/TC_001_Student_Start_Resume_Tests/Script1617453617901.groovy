@@ -78,6 +78,15 @@ WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 'Verify Resume link is no more available'
 WebUI.verifyElementNotPresent(findTestObject('Student/SAT_Math_Quiz/Algebra_Quiz_Resume_quiz'), 0)
 
+'Go to Quiz History'
+WebUI.click(findTestObject('Common_Objects/Common/Quiz_History_Tab'))
+
+'Verify quiz history shows record for appeared quiz'
+WebUI.verifyElementText(findTestObject('Student/SAT_Math_Quiz/Quiz_History_Row1_Quizname'), 'Algebra')
+
+'Click SAT Math Quiz menu'
+WebUI.click(findTestObject('Menus/Menu_SAT_Math_Quiz'))
+
 'Start new quiz - Geometry quiz'
 WebUI.click(findTestObject('Student/SAT_Math_Quiz/Geometry_Quiz_Start_New_Quiz'))
 
@@ -114,6 +123,15 @@ WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 'Verify Resume link is no more available'
 WebUI.verifyElementNotPresent(findTestObject('Student/SAT_Math_Quiz/Geometry_Quiz_Resume_quiz'), 0)
 
+'Go to Quiz History'
+WebUI.click(findTestObject('Common_Objects/Common/Quiz_History_Tab'))
+
+'Verify quiz history shows record for appeared quiz'
+WebUI.verifyElementText(findTestObject('Student/SAT_Math_Quiz/Quiz_History_Row1_Quizname'), 'Geometry')
+
+'Click SAT Math Quiz menu'
+WebUI.click(findTestObject('Menus/Menu_SAT_Math_Quiz'))
+
 'Start new quiz - Probability quiz'
 WebUI.click(findTestObject('Student/SAT_Math_Quiz/Probability_Quiz_Start_New_Quiz'))
 
@@ -146,6 +164,15 @@ WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 
 'Verify Resume link is no more available'
 WebUI.verifyElementNotPresent(findTestObject('Student/SAT_Math_Quiz/Probability_Quiz_Resume_quiz'), 0)
+
+'Go to Quiz History'
+WebUI.click(findTestObject('Common_Objects/Common/Quiz_History_Tab'))
+
+'Verify quiz history shows record for appeared quiz'
+WebUI.verifyElementText(findTestObject('Student/SAT_Math_Quiz/Quiz_History_Row1_Quizname'), 'Data, Statistics, and Probability')
+
+'Click SAT Math Quiz menu'
+WebUI.click(findTestObject('Menus/Menu_SAT_Math_Quiz'))
 
 'Start new quiz - Trigonometry quiz'
 WebUI.click(findTestObject('Student/SAT_Math_Quiz/Trigonometry_Quiz_Start_New_quiz'))
@@ -180,6 +207,15 @@ WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 'Verify Resume link is no more available'
 WebUI.verifyElementNotPresent(findTestObject('Student/SAT_Math_Quiz/Trigonomerty_Quiz_Resume_quiz'), 0)
 
+'Go to Quiz History'
+WebUI.click(findTestObject('Common_Objects/Common/Quiz_History_Tab'))
+
+'Verify quiz history shows record for appeared quiz'
+WebUI.verifyElementText(findTestObject('Student/SAT_Math_Quiz/Quiz_History_Row1_Quizname'), 'Trigonometry')
+
+'Click SAT Math Quiz menu'
+WebUI.click(findTestObject('Menus/Menu_SAT_Math_Quiz'))
+
 'Start new quiz - Complex Numbers quiz'
 WebUI.click(findTestObject('Student/SAT_Math_Quiz/Complex_Numbers_Quiz_Start_New_quiz'))
 
@@ -212,6 +248,15 @@ WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 
 'Verify Resume link is no more available'
 WebUI.verifyElementNotPresent(findTestObject('Student/SAT_Math_Quiz/Complex_Numbers_Resume_quiz'), 0)
+
+'Go to Quiz History'
+WebUI.click(findTestObject('Common_Objects/Common/Quiz_History_Tab'))
+
+'Verify quiz history shows record for appeared quiz'
+WebUI.verifyElementText(findTestObject('Student/SAT_Math_Quiz/Quiz_History_Row1_Quizname'), 'Complex Numbers')
+
+'Click SAT Math Quiz menu'
+WebUI.click(findTestObject('Menus/Menu_SAT_Math_Quiz'))
 
 'Close browser'
 WebUI.closeBrowser()

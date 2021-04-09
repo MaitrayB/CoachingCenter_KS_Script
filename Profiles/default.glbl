@@ -29,4 +29,14 @@
       <initValue>'P@ssw0rd'</initValue>
       <name>student_password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Devang'</initValue>
+      <name>student_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Devang Dave'</initValue>
+      <name>student_fullname</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
