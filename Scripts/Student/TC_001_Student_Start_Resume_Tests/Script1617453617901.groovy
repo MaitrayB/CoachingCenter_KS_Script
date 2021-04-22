@@ -22,13 +22,13 @@ WebUI.openBrowser(GlobalVariable.URL)
 WebUI.maximizeWindow()
 
 'Enter email address'
-WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Email'), GlobalVariable.student_username)
+WebUI.setText(findTestObject('Common_Objects/General_Objects/input_Email'), GlobalVariable.student_username)
 
 'Enter password'
-WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Password'), GlobalVariable.student_password)
+WebUI.setText(findTestObject('Common_Objects/General_Objects/input_Password'), GlobalVariable.student_password)
 
 'Click on login button'
-WebUI.click(findTestObject('Common_Objects/Login_Screen/button_Login'))
+WebUI.click(findTestObject('Common_Objects/General_Objects/button_Login'))
 
 'Click on SAT program panel'
 WebUI.click(findTestObject('Common_Objects/Common/SAT_Program_Panel'))

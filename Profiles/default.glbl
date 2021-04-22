@@ -39,4 +39,9 @@
       <initValue>'Devang Dave'</initValue>
       <name>student_fullname</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Bhatt\\Desktop\\test.png'</initValue>
+      <name>Profile_photo_file_path</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

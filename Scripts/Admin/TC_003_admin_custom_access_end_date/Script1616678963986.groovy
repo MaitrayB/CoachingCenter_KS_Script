@@ -28,13 +28,13 @@ WebUI.openBrowser(GlobalVariable.URL)
 WebUI.maximizeWindow()
 
 'Enter username'
-WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Email'), GlobalVariable.Admin)
+WebUI.setText(findTestObject('Common_Objects/General_Objects/input_Email'), GlobalVariable.Admin)
 
 'Enter password'
-WebUI.setText(findTestObject('Common_Objects/Login_Screen/input_Password'), GlobalVariable.admin_password)
+WebUI.setText(findTestObject('Common_Objects/General_Objects/input_Password'), GlobalVariable.admin_password)
 
 'Click on login button'
-WebUI.click(findTestObject('Common_Objects/Login_Screen/button_Login'))
+WebUI.click(findTestObject('Common_Objects/General_Objects/button_Login'))
 
 'Click on Group Class Management Menu'
 WebUI.click(findTestObject('Admin/Group_Class_Management/Group_Class_Management'))

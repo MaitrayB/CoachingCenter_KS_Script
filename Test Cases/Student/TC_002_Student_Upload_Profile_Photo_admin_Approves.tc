@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_Student_Upload_Profile_Photo_admin_Approves</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6abfa74-dad3-447f-98e3-bed4397820b5</testCaseGuid>
+</TestCaseEntity>
