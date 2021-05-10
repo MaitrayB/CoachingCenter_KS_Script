@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search_Button</name>
+   <name>Cell_Zipcode_First_Row</name>
    <tag></tag>
-   <elementGuidId>0dca55fc-e827-459e-bfe2-6d7cdb0c486c</elementGuidId>
+   <elementGuidId>abed5fa9-4a20-4a2e-8a97-6beaad4f762f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[.='Search']</value>
+         <value>//tr[contains(@data-ng-repeat,'branchData')][1]/td[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

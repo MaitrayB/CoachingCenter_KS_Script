@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test is about verifying student prospects screen and adding comments as admin</description>
    <name>TC_005_Student_Prospects</name>
    <tag></tag>
    <comment></comment>

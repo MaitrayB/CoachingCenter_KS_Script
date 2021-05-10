@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test verifies filters and search results on student management page as admin.</description>
    <name>TC_004_Student_Management_List_Filters</name>
    <tag></tag>
    <comment></comment>

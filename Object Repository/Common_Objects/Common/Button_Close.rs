@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Message_Area</name>
+   <name>Button_Close</name>
    <tag></tag>
-   <elementGuidId>f4bce6dc-7625-4513-9062-7ccd8bbe6884</elementGuidId>
+   <elementGuidId>6c7f3752-80d9-4216-8610-4116f6500dbd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[contains(@name,&quot;message&quot;)]</value>
+         <value>//button[@id=&quot;btnCloseSearch&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

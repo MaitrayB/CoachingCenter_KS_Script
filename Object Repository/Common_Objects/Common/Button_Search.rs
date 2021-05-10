@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Close_button</name>
+   <name>Button_Search</name>
    <tag></tag>
-   <elementGuidId>6c7f3752-80d9-4216-8610-4116f6500dbd</elementGuidId>
+   <elementGuidId>0dca55fc-e827-459e-bfe2-6d7cdb0c486c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id=&quot;btnCloseSearch&quot;]</value>
+         <value>//button[.='Search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

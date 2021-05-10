@@ -76,7 +76,7 @@ WebUI.click(findTestObject('Admin/Branch_Management/Student_Details_popup/Save_B
 WebUI.verifyElementVisible(findTestObject('Common_Objects/Common/Save_Success_Message'))
 
 'Click on Close button.'
-WebUI.click(findTestObject('Common_Objects/Common/Close_button'))
+WebUI.click(findTestObject('Common_Objects/Common/Button_Close'))
 
 'Verify SAT Prospects header is present'
 WebUI.verifyElementPresent(findTestObject('Admin/Branch_Management/Student_Prospects/DukeTip_Prospect_Header'), 0)

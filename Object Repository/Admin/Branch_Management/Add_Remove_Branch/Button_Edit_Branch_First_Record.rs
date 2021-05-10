@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Message_Area</name>
+   <name>Button_Edit_Branch_First_Record</name>
    <tag></tag>
-   <elementGuidId>f4bce6dc-7625-4513-9062-7ccd8bbe6884</elementGuidId>
+   <elementGuidId>600ef4f3-03d7-4428-be71-e3aa65bb192c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[contains(@name,&quot;message&quot;)]</value>
+         <value>(//tr//button[contains(@title,'Edit Details')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

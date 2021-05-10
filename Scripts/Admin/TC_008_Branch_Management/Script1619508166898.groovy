@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'Open browser'
+'Open browser and URL of site'
 WebUI.openBrowser(GlobalVariable.URL)
 
 'Maximize window'
 WebUI.maximizeWindow()
 
-'Enter username'
+'Enter email address'
 WebUI.setText(findTestObject('Common_Objects/General_Objects/input_Email'), GlobalVariable.Admin)
 
 'Enter password'
@@ -30,42 +30,36 @@ WebUI.setText(findTestObject('Common_Objects/General_Objects/input_Password'), G
 'Click on login button'
 WebUI.click(findTestObject('Common_Objects/General_Objects/button_Login'))
 
-'Click on New Registrations menu'
-WebUI.click(findTestObject('Admin/Branch_Management/New_Registrations/New_Registrations_menu'))
+'Click on Add/Remove branches menu'
+WebUI.click(findTestObject('Menus/Admin_Menu_Add_Remove_Branches'))
 
-'Click on Conversations button'
-WebUI.click(findTestObject('Admin/Branch_Management/New_Registrations/button_Coversation'))
+'Click edit icon of first record of branch'
+WebUI.click(findTestObject('Admin/Branch_Management/Add_Remove_Branch/Button_Edit_Branch_First_Record'))
 
-'Input texts in text area'
-WebUI.setText(findTestObject('Common_Objects/Common/textarea_conversation'), 'Rejecting this student')
+'Set zip code to 10099'
+WebUI.setText(findTestObject('Common_Objects/Common/Input_ZipCode'), '10099')
 
-'Submit conversation comments'
-WebUI.click(findTestObject('Common_Objects/Common/button_Submit'))
+'Save branch details'
+WebUI.click(findTestObject('Admin/Branch_Management/Add_Remove_Branch/Button_Save_Branch_Details'))
 
-'Verify comment texts are saved succesfully'
-WebUI.verifyElementText(findTestObject('Admin/Branch_Management/New_Registrations/message_conversation_line1'), 'Rejecting this student - Keith, N')
-
-'Close the modal by clicking on x'
 WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 
-'View details of first record'
-WebUI.click(findTestObject('Common_Objects/Common/View_Details_Icon_firstRecord'))
+'Verify zip code value'
+WebUI.verifyElementText(findTestObject('Admin/Branch_Management/Add_Remove_Branch/Cell_Zipcode_First_Row'), '10099')
 
-WebUI.scrollToElement(findTestObject('Common_Objects/Common/Delete_button'), 0)
+'Click edit icon of first record of branch'
+WebUI.click(findTestObject('Admin/Branch_Management/Add_Remove_Branch/Button_Edit_Branch_First_Record'))
 
-'Click on delete button'
-WebUI.click(findTestObject('Common_Objects/Common/Delete_button'))
+'Set zip code to 20965'
+WebUI.setText(findTestObject('Common_Objects/Common/Input_ZipCode'), '20965')
 
-'Verify delete success message'
-WebUI.verifyElementText(findTestObject('Common_Objects/Common/Delete_Success_Message'), 'Enrollment has been deleted successfully.')
+'Save branch details'
+WebUI.click(findTestObject('Admin/Branch_Management/Add_Remove_Branch/Button_Save_Branch_Details'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Common_Objects/Common/x_button'))
 
-'Close the details modal'
-WebUI.click(findTestObject('Admin/Branch_Management/New_Registrations/NR_Modal_Close'))
+'Verify zip code value'
+WebUI.verifyElementText(findTestObject('Admin/Branch_Management/Add_Remove_Branch/Cell_Zipcode_First_Row'), '20965')
 
-WebUI.delay(3)
-
-'Close browser'
 WebUI.closeBrowser()
 

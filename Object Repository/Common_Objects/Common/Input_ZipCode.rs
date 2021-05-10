@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Message_Area</name>
+   <name>Input_ZipCode</name>
    <tag></tag>
-   <elementGuidId>f4bce6dc-7625-4513-9062-7ccd8bbe6884</elementGuidId>
+   <elementGuidId>1bcc73d2-f301-4a31-bb00-393d2d319873</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[contains(@name,&quot;message&quot;)]</value>
+         <value>//input[@id='zipCode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

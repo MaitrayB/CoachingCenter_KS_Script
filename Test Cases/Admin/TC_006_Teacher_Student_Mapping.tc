@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test is about student teacher mapping as admin.</description>
    <name>TC_006_Teacher_Student_Mapping</name>
    <tag></tag>
    <comment></comment>

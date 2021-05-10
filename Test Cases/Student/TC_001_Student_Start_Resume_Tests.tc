@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test is about student starting and resuming tests.</description>
    <name>TC_001_Student_Start_Resume_Tests</name>
    <tag></tag>
    <comment></comment>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case is about changing custom access end dates. it sets end date to pasts and verifies that student should not have access. Then it changes access end date to tomorrow and verifies that student should have access back again.</description>
    <name>TC_003_admin_custom_access_end_date</name>
    <tag></tag>
    <comment></comment>

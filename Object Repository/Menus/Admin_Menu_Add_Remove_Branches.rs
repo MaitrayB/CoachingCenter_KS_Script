@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Message_Area</name>
+   <name>Admin_Menu_Add_Remove_Branches</name>
    <tag></tag>
-   <elementGuidId>f4bce6dc-7625-4513-9062-7ccd8bbe6884</elementGuidId>
+   <elementGuidId>f5650f9a-ca25-4f70-a427-71b43800ff2b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[contains(@name,&quot;message&quot;)]</value>
+         <value>//a[contains(.,'Add/Remove Branches')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

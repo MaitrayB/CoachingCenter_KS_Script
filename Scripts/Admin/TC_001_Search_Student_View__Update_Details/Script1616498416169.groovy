@@ -41,7 +41,7 @@ WebUI.selectOptionByLabel(findTestObject('Admin/Branch_Management/Search_Student
 WebUI.setText(findTestObject('Admin/Branch_Management/Search_Students/input_studentFirstname'), 'test')
 
 'Click on Search button'
-WebUI.click(findTestObject('Common_Objects/Common/Search_Button'))
+WebUI.click(findTestObject('Common_Objects/Common/Button_Search'))
 
 'Click on View Details of first record'
 WebUI.click(findTestObject('Common_Objects/Common/View_Details_First_Record'))
@@ -68,7 +68,7 @@ WebUI.click(findTestObject('Admin/Branch_Management/Student_Details_popup/Save_B
 WebUI.verifyElementVisible(findTestObject('Common_Objects/Common/Save_Success_Message'))
 
 'Click on Close button.'
-WebUI.click(findTestObject('Common_Objects/Common/Close_button'))
+WebUI.click(findTestObject('Common_Objects/Common/Button_Close'))
 
 'Click on Reset button'
 WebUI.click(findTestObject('Common_Objects/Common/Reset_button'))
