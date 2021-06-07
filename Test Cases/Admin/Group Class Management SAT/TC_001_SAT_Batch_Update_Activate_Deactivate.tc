@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_SAT_Batch_Update_Activate_Deactivate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9051cb87-181f-46e4-8f6a-dd3c7114329c</testCaseGuid>
+</TestCaseEntity>

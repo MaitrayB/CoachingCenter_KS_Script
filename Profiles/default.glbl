@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'melbourne'</initValue>
       <name>admin_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'P@ssw0rd'</initValue>
       <name>student_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,5 +43,15 @@
       <description></description>
       <initValue>'C:\\Users\\Bhatt\\Desktop\\test.png'</initValue>
       <name>Profile_photo_file_path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mehta batch'</initValue>
+      <name>Batch_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'May_to_Dec_2021'</initValue>
+      <name>Active_batch</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
